@@ -1,8 +1,8 @@
 const bcrypt = require("bcryptjs");
 
 
-const Event = require("./../../models/event"); //import event model
-const User = require("./../../models/user");//import user model
+const Event = require("./../models/event"); //import event model
+const User = require("./../models/user");//import user model
 
 const events = async eventIds => {
     //here we fetch all events which have eventIds

@@ -2,8 +2,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const { graphqlHTTP } = require('express-graphql'); //middleware
 const mongoose = require("mongoose");
-const graphQLSchema = require('./graphQL/schema');
-const graphQLResolvers = require('./graphQL/resolvers');
+const graphQLSchema = require('./schema');
+const graphQLResolvers = require('./resolvers');
 
 
 const app = express();
